@@ -65,6 +65,13 @@ h3{
 {
     color: #fff !important;
 }
+.btn-whatsapp{
+    background-color: #25D366;
+    color: #fff !important;
+}
+.btn-whatsapp:hover, .btn-whatsapp:focus{
+    background-color: #3aef7c;
+}
 /*** Spinner ***/
 .bg-red{
     background-color: #dc1f26;
@@ -568,12 +575,15 @@ h6,
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
+    transition: .3s;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary) !important;
-    letter-spacing: 1px;
+    color: #fff !important;
     box-shadow: none;
+}
+.footer .btn.btn-link:hover:before {
+    margin-right: 15px;
 }
 
 .footer .form-control {
