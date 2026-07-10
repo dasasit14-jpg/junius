@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JUNIUS - Preschool Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon-16x16.png" rel="icon">
+    <link href="img/favicon-32x32.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/logo-junius.svg" alt="JUNIUS" />
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="products.html" class="nav-item nav-link active">Products</a>
+                    <a href="services.html" class="nav-item nav-link">Services</a>
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
+                            <a href="facility.html" class="dropdown-item">School Facilities</a>
+                            <a href="team.html" class="dropdown-item">Popular Teachers</a>
+                            <a href="call-to-action.html" class="dropdown-item">Become A Teachers</a>
+                            <a href="appointment.html" class="dropdown-item">Make Appointment</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Error</a>
+                        </div>
+                    </div> -->
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                </div>
+                <a class="btn btn-whatsapp whatsapp-link rounded-pill py-sm-2 px-sm-3"
+                href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="WhatsApp">
+                    <img src="img/whatsapp.svg" alt="" />
+                    Chat with us.
+                </a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+        <div class="container-xxl py-5 position-relative mb-5 services-banner bg-warning">
+            <div class="container py-5">
+                <h1 class="display-2 text-white animated slideInDown">Our Products</h1>
+            </div>
+        </div>
+
+        <!-- Services-1 -->
+        <div class="container-xxl py-5">
+            <div class="container wow fadeIn" data-wow-delay="0.5s">
+                <div class="d-flex mb-5 gap-2 nav" id="productTabs" role="tablist">
+    
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100 active"
+                            data-bs-toggle="tab"
+                            data-bs-target="#tables"
+                            type="button"
+                            role="tab">
+                        Tables
+                    </button>
+
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#chairs"
+                            type="button"
+                            role="tab">
+                        Chairs
+                    </button>
+
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#studydesk"
+                            type="button"
+                            role="tab">
+                        Study Desk
+                    </button>
+
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#slides"
+                            type="button"
+                            role="tab">
+                        Slides
+                    </button>
+
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#rockers"
+                            type="button"
+                            role="tab">
+                        Rockers
+                    </button>
+
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#seesaw"
+                            type="button"
+                            role="tab">
+                        See Saw
+                    </button>
+
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#sports"
+                            type="button"
+                            role="tab">
+                        Sports
+                    </button>
+
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#educational"
+                            type="button"
+                            role="tab">
+                        Educational
+                    </button>
+
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#mat"
+                            type="button"
+                            role="tab">
+                        Mat
+                    </button>
+                    
+                    <button class="btn btn-strock py-2 px-4 justify-content-center rounded-100"
+                            data-bs-toggle="tab"
+                            data-bs-target="#treehouse"
+                            type="button"
+                            role="tab">
+                        Tree House
+                    </button>
+
+                </div>
+
+                <div class="tab-content">
+
+                    <div class="tab-pane fade show active" id="tables">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Moon-Table-Mini-(Plastic-Legs).jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Moon Table Mini (Plastic Legs)
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 3,299.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Moon-Table-Small-(Plastic-Legs).jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Moon Table Small (Plastic Legs)
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 4,499.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Square-Table-Small-plastic.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                    Square Table Small plastic
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 3,899.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Rectangle-Table-(Plastic-Leg).jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Rectangle Table (Plastic Leg)
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 4,299.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Rectangle-Table-(Metal-Leg).jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Rectangle Table (Metal Leg)
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 4,899.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/rounded-table-small-plastic-leg.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Round Table–Small (Plastic Leg)
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 3,599.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="chairs">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Plastic-Chair-28cm.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Plastic Chair - 28cm
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 799.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Plastic-Chair-30cm.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Plastic Chair - 30cm
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 899.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Acitivity-Chair.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Acitivity Chair
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 899.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="studydesk">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Mini-Minds-Double.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Mini Minds Double
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 5,599.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Mini-Minds-Single.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Mini Minds Single (With Lid)
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 4,299.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Zoo-Budy-Double.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Zoo Budy Double
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 6,299.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Zoo-Budy-Single.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Zoo Budy Single
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 4,499.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="slides">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Penguin-Slide.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Penguin Slide With Basketball Ring
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,899.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Giraffe-Slide-With-Basketball-Ring.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Giraffe Slide With Basketball Ring
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,799.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Unicorn-Slide.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Unicorn Slide With Basketball Ring - Junior
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 3,599.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="rockers">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Cute-Puppy-Rocker-Combo.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Cute Puppy Rocker Combo
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,299.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/car-rocker-combo.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Car Rocker Combo
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,499.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Scooter-Rocker-Combo.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Scooter Rocker Combo
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,699.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Cute-Puppy-Rocker-Combo.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Duck Rocker
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,199.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Rocker-small.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Rocker Small
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,199.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Rocker-medium.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Rocker Medium
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,799.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="seesaw">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/elephant-see-saw.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Elephant See Saw
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 2,899.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="sports">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Lion-Basketball.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Lion Basketball Hoop
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 1,699.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Basketball-Ring.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Basketball Ring
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 5,499.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="educational">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/Ice-Cream-Easel.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Ice-Cream Easel Set
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 4,799.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="mat">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/sprots-mat.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Sports Mat set
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 1,599.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="treehouse">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/tree-house-a.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Little Tree House - A
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 13,499.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="item-cell">
+                                    <div class="border-bottom mb-4 pb-4">
+                                        <img src="img/tree-house-b.jpg" alt="" />
+                                    </div>
+                                    <h4 class="font-16 mb-3">
+                                        Little Tree House - B
+                                    </h4>
+                                    <p class="font-14 mb-3">MRP ₹ 11,999.00</p>
+
+                                    <a class="btn btn-primary w-100 py-3 justify-content-center" href="https://wa.me/919875604628?text=Hi! Welcome to Junius. How can we help you?" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                                        Enquire Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services-1 -->
+        
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-md-6">
+                        <h3 class="text-white mb-4">Get In Touch</h3>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>10/4 Doctor Bagan Lane, Serampore, 712203</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9875604628</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@junius.in</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3 class="text-white mb-4">Quick Links</h3>
+                        <a class="btn btn-link text-white-50" href="">Products</a>
+                        <a class="btn btn-link text-white-50" href="">Services</a>
+                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 di-flex">
+                        <div class="d-flex pt-2 justify-content-end">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12 text-center mb-3 mb-md-0">
+                            &copy; 2026 junius.in. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

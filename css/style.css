@@ -409,7 +409,7 @@ h6,
     position: relative;
     min-height: 250px;
     padding: 30px;
-    border-radius: 100%;
+    /* border-radius: 100%; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -618,4 +618,30 @@ h6,
 }
 .contact-banner{
     background-color: #415daa;
+}
+.item-cell{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-14{
+    font-size: 14px;
+}
+.rounded-100{
+    border-radius: 100px;
+}
+.btn-strock{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.btn-strock:hover, 
+.btn-strock.active{
+    background-color: var(--primary);
+    color: #fff;
 }
